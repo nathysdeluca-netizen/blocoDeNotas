@@ -1,7 +1,9 @@
 /* Estilos gerais para a página */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
     font-family: sans-serif;
-    background-color: #f0f2f5;
+    background-color: #063a67;
     color: #333;
     display: flex;
     justify-content: center;
@@ -12,21 +14,24 @@ body {
 
 /* O contêiner principal que centraliza nosso conteúdo */
 .container {
-    background-color: #ffffff;
+    background-color: #155abb;
     padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 90%;
     max-width: 600px;
 }
 
 h1 {
-    color: #007bff;
+    color: #c1d7ee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.4px;
 }
 
 p {
-    color: #6c757d;
+    color: #363a3d;
     margin-bottom: 20px;
 }
 
